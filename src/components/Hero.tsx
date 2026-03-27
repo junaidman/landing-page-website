@@ -135,8 +135,8 @@ export function Hero() {
                 window.scrollTo({ top: 0, behavior: 'smooth' })
               }}
             >
-              <img src={logo} alt="Mojju" className="h-8 w-8 mr-2" />
-              <span className="font-bagel text-white text-xl tracking-wider">MOJJU</span>
+              <img src={logo} alt="Junaid Dev" className="h-8 w-8 mr-2" />
+              <span className="font-bagel text-white text-xl tracking-wider">JUNAID DEV</span>
             </motion.div>
 
             {/* Navigation Menu */}
