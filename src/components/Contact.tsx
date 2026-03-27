@@ -48,7 +48,7 @@ export function Contact() {
               <div className="flex items-center justify-between">
                 <div>
                   <h3 className="text-xl font-black text-foreground mb-1">
-                    MOJJU Discovery Call
+                    Junaid Dev Discovery Call
                   </h3>
                   <p className="text-muted-foreground">
                     30 minutes • Video call • Free consultation
