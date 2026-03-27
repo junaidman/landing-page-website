@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { Volume2, VolumeX, Menu, X } from 'lucide-react'
 import { useState, useRef, useEffect } from 'react'
+import logo from '@/assets/logo.png'
 
 export function Hero() {
   const [isMuted, setIsMuted] = useState(true)
@@ -134,6 +135,7 @@ export function Hero() {
                 window.scrollTo({ top: 0, behavior: 'smooth' })
               }}
             >
+              <img src={logo} alt="Mojju" className="h-8 w-8 mr-2" />
               <span className="font-bagel text-white text-xl tracking-wider">MOJJU</span>
             </motion.div>
 
