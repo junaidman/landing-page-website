@@ -135,7 +135,7 @@ export function Hero() {
                 window.scrollTo({ top: 0, behavior: 'smooth' })
               }}
             >
-              <img src={logo} alt="Junaid Dev" className="h-8 w-8 mr-2" />
+              <img src={logo} alt="Junaid Dev" className="h-8 w-8 mr-2 brightness-0 invert drop-shadow-[0_0_8px_rgba(255,255,255,0.4)]" />
               <span className="font-bagel text-white text-xl tracking-wider">JUNAID DEV</span>
             </motion.div>
 
